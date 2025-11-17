@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kavita Julaniya - Portfolio</title>
+
+<style>
+    /* ---------- Colors & Theme ---------- */
+    :root {
+        --bg: #0d1117;
+        --card: #161b22;
+        --text: #e6e6e6;
+        --muted: #9da5b4;
+        --accent: #10b3b6;
+        --accent-light: #13c7c9;
+        --radius: 14px;
+        --shadow: 0 6px 20px rgba(0,0,0,0.25);
+    }
+
+    /* ---------- Global ---------- */
+    body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+    }
+    a { color: var(--accent-light); text-decoration: none; }
+    h2 { margin-top: 0; }
+
+    /* ---------- Hero Section ---------- */
+    header {
+        text-align: center;
+        padding: 70px 20px;
+        color: white;
+        background: linear-gradient(135deg, #0d1117, #0b2c2c, #0d1117);
+        border-bottom: 1px solid #222;
+    }
+    header h1 {
+        font-size: 38px;
+        margin-bottom: 8px;
+    }
+    header p {
+        font-size: 18px;
+        color: var(--muted);
+    }
+
+    /* ---------- Container ---------- */
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    /* ---------- Section Cards ---------- */
+    section {
+        background: var(--card);
+        padding: 30px;
+        margin: 25px 0;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+    }
+
+    section h2 {
+        font-size: 24px;
+        border-left: 5px solid var(--accent);
+        padding-left: 12px;
+        margin-bottom: 20px;
+    }
+
+    /* ---------- Skills ---------- */
+    .skills span {
+        background: #0f3033;
+        color: var(--accent-light);
+        padding: 8px 16px;
+        border-radius: 20px;
+        margin: 5px;
+        display: inline-block;
+        font-size: 14px;
+        border: 1px solid #145d60;
+    }
+
+    /* ---------- Projects ---------- */
+    .project {
+        background: #0f151d;
+        border-left: 4px solid var(--accent);
+        padding: 15px 20px;
+        margin: 18px 0;
+        border-radius: 10px;
+    }
+    .project h3 { margin: 0 0 5px; }
+    .project p { color: var(--muted); margin: 0 0 8px; }
+
+    /* ---------- Footer ---------- */
+    footer {
+        text-align: center;
+        padding: 20px;
+        color: var(--muted);
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HERO / HEADER -->
+<header>
+    <h1>Kavita Julaniya</h1>
+    <p>Frontend Developer • HTML • CSS • JavaScript • React</p>
+</header>
+
+<div class="container">
+
+    <!-- ABOUT -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a frontend developer passionate about building clean, user-friendly and responsive websites.
+            I enjoy working with HTML, CSS, JavaScript, and React — and I love turning ideas into real,
+            interactive experiences.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React.js</span>
+            <span>Bootstrap</span>
+            <span>Problem Solving</span>
+            <span>Communication</span>
+            <span>Teamwork</span>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Notes App</h3>
+            <p>Responsive notes app with add/edit/delete features + dark mode + localStorage.</p>
+            <a href="https://prismatic-tapioca-233f62.netlify.app/" target="_blank">Live Demo →</a>
+        </div>
+
+        <div class="project">
+            <h3>Pop-In Pop-Up Magic Game</h3>
+            <p>A fun mini-game built with JavaScript and CSS animations.</p>
+            <a href="https://kavitaprajapati2004.github.io/magic-game/" target="_blank">Play Game →</a>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section>
+        <h2>Experience</h2>
+
+        <h3>Recreation Coordinator — NavGurukul</h3>
+        <p class="muted">2024 – 2025</p>
+        <ul>
+            <li>Organized creative activity events.</li>
+            <li>Improved teamwork & leadership skills.</li>
+        </ul>
+
+        <h3>ITMS Intern — Smart City Office, Ujjain</h3>
+        <p class="muted">2022</p>
+        <ul>
+            <li>Monitored traffic systems and reported faults.</li>
+            <li>Worked with real-time monitoring tools.</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+        <h2>Contact</h2>
+
+        <p><strong>Email:</strong> <a href="mailto:kavitajulaniya24@navgurukul.org">kavitajulaniya24@navgurukul.org</a></p>
+        <p><strong>Phone:</strong> 7489651707</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kavita-julaniya-8298ab337/" target="_blank">Visit Profile</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/kavitaprajapati2004" target="_blank">View Projects</a></p>
+    </section>
+
+</div>
+
+<footer>
+    © 2025 • Designed by Kavita Julaniya
+</footer>
+
+</body>
+</html>
